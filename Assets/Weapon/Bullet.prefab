@@ -178,6 +178,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 15
+  destoryTags:
+  - Edge
 --- !u!114 &114739148511758068
 MonoBehaviour:
   m_ObjectHideFlags: 1
