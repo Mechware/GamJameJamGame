@@ -20,9 +20,10 @@ public class WaveMovement : MonoBehaviour {
 
     IEnumerator moveInWave(float frequency, float phase, float amplitude) {
         Vector3 position = new Vector3(0, 0, 0);
+        float timePassed = 0;
         while(true) {
-            position.x += Time.deltaTime;
-            position.y = amplitude * Mathf.Cos(frequency*position.x + phase);
+            timePassed += Time.deltaTime;
+            position.y = amplitude * Mathf.Sin(frequency*timePassed + phase);
             transform.localPosition = position;
             yield return null;
         }

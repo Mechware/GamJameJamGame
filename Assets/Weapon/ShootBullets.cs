@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShootBullets : MonoBehaviour {
 
     public GameObject bullet;
+    public Transform startPosition;
 
 	// Use this for initialization
 	void Start () {
@@ -13,16 +14,14 @@ public class ShootBullets : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetMouseButtonDown(0)) {
+		if(Input.GetMouseButtonDown(0) || Input.GetButtonDown("Fire1")) {
             Vector3 mouse = Input.mousePosition;
             mouse.z = 0;
             Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mouseWorldPosition.z = 0;
             Vector3 direction = transform.position - mouseWorldPosition;
             GameObject bulletObj = Instantiate(bullet);
-            Vector3 startPos = transform.position;
-            startPos.x += 3;
-            bulletObj.GetComponent<Bullet>().setStartPosition(startPos, direction);
+            bulletObj.GetComponent<Bullet>().setStartPosition(startPosition.position, direction);
 
         }
 	}

@@ -6,109 +6,424 @@
 2017-01-20 18:40:38.7774 [DEBUG] Scene Fusion version 1.2.0
 2017-01-20 18:40:38.7899 [DEBUG] Login. (Email: mdemone@uvic.ca)
 2017-01-20 18:40:39.2935 [DEBUG] Login complete.
-2017-01-20 18:43:13.8324 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 18:43:41.1570 [DEBUG] Login. (Email: gperry@uvic.ca)
-2017-01-20 18:43:41.9130 [DEBUG] Login complete.
-2017-01-20 18:43:45.7532 [DEBUG] Connecting to room (2972:FusionScene:SceneFusion) via TCP at console.kinematicsoup.com:1025
-2017-01-20 18:55:35.7848 [DEBUG] session.2972.log log sent
-2017-01-20 19:35:41.1624 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:10:20.6063 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:14:37.6931 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:14:42.0463 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:14:42.1173 [DEBUG] Play mode: True
-2017-01-20 20:14:45.9285 [DEBUG] Play mode: False
-2017-01-20 20:15:29.2100 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:16:36.5189 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:16:36.5859 [DEBUG] Play mode: True
-2017-01-20 20:16:52.6488 [DEBUG] Play mode: False
-2017-01-20 20:20:37.6046 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:20:37.6706 [DEBUG] Play mode: True
-2017-01-20 20:21:05.5382 [DEBUG] Play mode: False
-2017-01-20 20:22:54.5365 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:22:54.6225 [DEBUG] Play mode: True
-2017-01-20 20:23:45.7674 [DEBUG] Play mode: False
-2017-01-20 20:32:09.2092 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:32:17.3497 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:32:17.4107 [DEBUG] Play mode: True
-2017-01-20 20:32:26.4412 [DEBUG] Play mode: False
-2017-01-20 20:32:32.4795 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:32:32.5405 [DEBUG] Play mode: True
-2017-01-20 20:32:35.0927 [DEBUG] Play mode: False
-2017-01-20 20:59:05.2826 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:59:09.8279 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 20:59:09.9009 [DEBUG] Play mode: True
-2017-01-20 20:59:26.6499 [DEBUG] Play mode: False
-2017-01-20 21:00:16.2917 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:00:16.3737 [DEBUG] Play mode: True
-2017-01-20 21:02:39.3919 [DEBUG] Play mode: False
-2017-01-20 21:10:36.8472 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:10:36.9252 [DEBUG] Play mode: True
-2017-01-20 21:12:59.5924 [DEBUG] Play mode: False
-2017-01-20 21:16:04.8859 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:16:04.9620 [DEBUG] Play mode: True
-2017-01-20 21:18:26.2360 [DEBUG] Play mode: False
-2017-01-20 21:18:29.6222 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:18:29.6942 [DEBUG] Play mode: True
-2017-01-20 21:18:36.3916 [DEBUG] Play mode: False
-2017-01-20 21:18:47.1652 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:18:47.2252 [DEBUG] Play mode: True
-2017-01-20 21:21:38.2200 [DEBUG] Play mode: False
-2017-01-20 21:21:40.7422 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:21:43.4943 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:21:43.5553 [DEBUG] Play mode: True
-2017-01-20 21:34:06.9298 [DEBUG] Play mode: False
-2017-01-20 21:34:10.3830 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:34:10.4650 [DEBUG] Play mode: True
-2017-01-20 21:37:01.6498 [DEBUG] Play mode: False
-2017-01-20 21:39:24.3770 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:39:28.8963 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:39:28.9653 [DEBUG] Play mode: True
-2017-01-20 21:39:42.4310 [DEBUG] Play mode: False
-2017-01-20 21:42:42.8663 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:42:42.9334 [DEBUG] Play mode: True
-2017-01-20 21:43:54.4884 [DEBUG] Play mode: False
-2017-01-20 21:52:10.4598 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:52:10.5248 [DEBUG] Play mode: True
-2017-01-20 21:54:55.6263 [DEBUG] Play mode: False
-2017-01-20 21:54:58.6104 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:55:03.9877 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:55:04.0507 [DEBUG] Play mode: True
-2017-01-20 21:55:28.8882 [DEBUG] Play mode: False
-2017-01-20 21:56:42.5954 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:56:42.6674 [DEBUG] Play mode: True
-2017-01-20 21:59:35.6553 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 21:59:49.6241 [DEBUG] Play mode: False
-2017-01-20 22:01:30.3208 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:01:30.3918 [DEBUG] Play mode: True
-2017-01-20 22:01:40.1754 [DEBUG] Play mode: False
-2017-01-20 22:02:11.2452 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:02:11.3052 [DEBUG] Play mode: True
-2017-01-20 22:02:23.8869 [DEBUG] Play mode: False
-2017-01-20 22:02:38.6677 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:02:38.7387 [DEBUG] Play mode: True
-2017-01-20 22:02:41.0249 [DEBUG] Play mode: False
-2017-01-20 22:06:12.1810 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:06:12.2470 [DEBUG] Play mode: True
-2017-01-20 22:06:39.2675 [DEBUG] Play mode: False
-2017-01-20 22:06:54.7754 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:06:57.5556 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:06:57.6276 [DEBUG] Play mode: True
-2017-01-20 22:07:03.6039 [DEBUG] Play mode: False
-2017-01-20 22:07:50.9646 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:07:51.0396 [DEBUG] Play mode: True
-2017-01-20 22:08:20.6093 [DEBUG] Play mode: False
-2017-01-20 22:09:15.5324 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:09:15.5994 [DEBUG] Play mode: True
-2017-01-20 22:09:33.3575 [DEBUG] Play mode: False
-2017-01-20 22:09:58.7189 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:09:58.7869 [DEBUG] Play mode: True
-2017-01-20 22:10:04.7763 [DEBUG] Play mode: False
-2017-01-20 22:12:49.5037 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:12:49.5767 [DEBUG] Play mode: True
-2017-01-20 22:13:00.0723 [DEBUG] Play mode: False
-2017-01-20 22:13:34.0032 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:13:34.0742 [DEBUG] Play mode: True
-2017-01-20 22:13:37.0084 [DEBUG] Play mode: False
-2017-01-20 22:15:23.7715 [DEBUG] Scene Fusion version 1.2.0
-2017-01-20 22:15:23.8345 [DEBUG] Play mode: True
-2017-01-20 22:19:49.1207 [DEBUG] Play mode: False
+2017-01-20 18:42:37.1348 [DEBUG] Connecting to room (2972:FusionScene:SceneFusion) via TCP at console.kinematicsoup.com:1025
+2017-01-20 18:50:50.6156 [DEBUG] session.2972.log log sent
+2017-01-20 18:50:57.2891 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 18:50:57.3231 [DEBUG] Play mode: True
+2017-01-20 18:50:57.5057 [DEBUG] Connecting to room (2972:FusionScene:SceneFusion) via TCP at console.kinematicsoup.com:1025
+2017-01-20 18:51:30.0456 [DEBUG] session.2972.log log sent
+2017-01-20 18:51:31.5464 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 18:51:31.5842 [DEBUG] Play mode: True
+2017-01-20 18:51:31.6453 [DEBUG] Connecting to room (2972:FusionScene:SceneFusion) via TCP at console.kinematicsoup.com:1025
+2017-01-20 18:52:35.9971 [DEBUG] session.2972.log log sent
+2017-01-20 18:52:37.5530 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 18:52:37.5891 [DEBUG] Play mode: True
+2017-01-20 18:52:37.6464 [DEBUG] Connecting to room (2972:FusionScene:SceneFusion) via TCP at console.kinematicsoup.com:1025
+2017-01-20 18:53:20.1056 [DEBUG] session.2972.log log sent
+2017-01-20 18:53:21.6628 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 18:53:21.6988 [DEBUG] Play mode: True
+2017-01-20 18:53:21.7579 [DEBUG] Connecting to room (2972:FusionScene:SceneFusion) via TCP at console.kinematicsoup.com:1025
+2017-01-20 18:53:39.5334 [DEBUG] session.2972.log log sent
+2017-01-20 18:53:41.1028 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 18:53:41.1368 [DEBUG] Play mode: True
+2017-01-20 18:53:41.1970 [DEBUG] Connecting to room (2972:FusionScene:SceneFusion) via TCP at console.kinematicsoup.com:1025
+2017-01-20 18:54:08.7798 [DEBUG] session.2972.log log sent
+2017-01-20 18:54:11.2348 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 18:54:11.5316 [DEBUG] Property changes detected after recompile. Will not reconnect.
+2017-01-20 18:54:11.5546 [DEBUG] Connecting to room (2972:FusionScene:SceneFusion) via TCP at console.kinematicsoup.com:1025
+2017-01-20 18:54:11.5801 [DEBUG] Authenticating with server...
+2017-01-20 18:54:11.6243 [DEBUG] Authentication with the remote host failed. (2972:FusionScene:SceneFusion)
+2017-01-20 18:54:11.6258 [DEBUG] Connection Failed. (2972:FusionScene:SceneFusion)
+2017-01-20 18:54:37.5397 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:03:57.8587 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:03:59.5602 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:03:59.5953 [DEBUG] Play mode: True
+2017-01-20 19:04:03.8447 [DEBUG] Play mode: False
+2017-01-20 19:04:16.0412 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:04:16.0792 [DEBUG] Play mode: True
+2017-01-20 19:04:22.5668 [DEBUG] Play mode: False
+2017-01-20 19:04:34.6693 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:04:36.4226 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:04:36.4642 [DEBUG] Play mode: True
+2017-01-20 19:04:42.2903 [DEBUG] Play mode: False
+2017-01-20 19:04:50.6023 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:04:50.6413 [DEBUG] Play mode: True
+2017-01-20 19:04:54.8474 [DEBUG] Play mode: False
+2017-01-20 19:05:04.6683 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:05:06.3447 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:05:06.3848 [DEBUG] Play mode: True
+2017-01-20 19:05:49.5343 [DEBUG] Play mode: False
+2017-01-20 19:29:28.6345 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:29:44.6761 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:29:44.7121 [DEBUG] Play mode: True
+2017-01-20 19:30:31.4276 [DEBUG] Play mode: False
+2017-01-20 19:30:43.5076 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:30:43.5463 [DEBUG] Play mode: True
+2017-01-20 19:31:09.5292 [DEBUG] Play mode: False
+2017-01-20 19:31:13.0919 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:31:13.1289 [DEBUG] Play mode: True
+2017-01-20 19:31:43.9511 [DEBUG] Play mode: False
+2017-01-20 19:31:51.9848 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:31:52.0248 [DEBUG] Play mode: True
+2017-01-20 19:31:55.5129 [DEBUG] Play mode: False
+2017-01-20 19:32:22.1811 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:32:22.2171 [DEBUG] Play mode: True
+2017-01-20 19:32:39.7979 [DEBUG] Play mode: False
+2017-01-20 19:32:44.3643 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:32:44.3983 [DEBUG] Play mode: True
+2017-01-20 19:32:59.7451 [DEBUG] Play mode: False
+2017-01-20 19:33:04.4829 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:33:04.5179 [DEBUG] Play mode: True
+2017-01-20 19:33:25.0175 [DEBUG] Play mode: False
+2017-01-20 19:33:43.9288 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:33:43.9703 [DEBUG] Play mode: True
+2017-01-20 19:34:04.8531 [DEBUG] Play mode: False
+2017-01-20 19:34:57.2165 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:34:57.2496 [DEBUG] Play mode: True
+2017-01-20 19:35:17.1322 [DEBUG] Play mode: False
+2017-01-20 19:36:31.0596 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:36:53.1536 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:36:53.3048 [DEBUG] Play mode: True
+2017-01-20 19:36:55.9579 [DEBUG] Play mode: False
+2017-01-20 19:38:21.2368 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:38:21.2478 [DEBUG] Login. (Email: mdemone@uvic.ca)
+2017-01-20 19:38:21.6676 [DEBUG] Login complete.
+2017-01-20 19:41:13.9194 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:41:14.0825 [DEBUG] Play mode: True
+2017-01-20 19:41:14.7221 [DEBUG] Play mode: False
+2017-01-20 19:41:38.3822 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:41:38.5383 [DEBUG] Play mode: True
+2017-01-20 19:41:40.3536 [DEBUG] Play mode: False
+2017-01-20 19:42:56.9639 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:42:57.0836 [DEBUG] Play mode: True
+2017-01-20 19:42:58.2338 [DEBUG] Play mode: False
+2017-01-20 19:55:52.9047 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:55:53.0533 [DEBUG] Play mode: True
+2017-01-20 19:55:54.0579 [DEBUG] Play mode: False
+2017-01-20 19:56:21.4184 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:56:21.5549 [DEBUG] Play mode: True
+2017-01-20 19:56:21.8792 [DEBUG] Play mode: False
+2017-01-20 19:56:35.7607 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:56:35.8032 [DEBUG] Play mode: True
+2017-01-20 19:56:42.4751 [DEBUG] Play mode: False
+2017-01-20 19:56:54.2280 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:56:54.2686 [DEBUG] Play mode: True
+2017-01-20 19:56:55.5360 [DEBUG] Play mode: False
+2017-01-20 19:57:07.6849 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:57:07.7214 [DEBUG] Play mode: True
+2017-01-20 19:57:09.5163 [DEBUG] Play mode: False
+2017-01-20 19:57:20.5019 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:57:20.5374 [DEBUG] Play mode: True
+2017-01-20 19:57:21.3146 [DEBUG] Play mode: False
+2017-01-20 19:58:13.1133 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:58:13.1484 [DEBUG] Play mode: True
+2017-01-20 19:58:13.8749 [DEBUG] Play mode: False
+2017-01-20 19:58:33.5385 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 19:58:33.5745 [DEBUG] Play mode: True
+2017-01-20 19:58:34.8750 [DEBUG] Play mode: False
+2017-01-20 19:59:58.3406 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:01:31.2674 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:01:31.3034 [DEBUG] Play mode: True
+2017-01-20 20:01:33.9599 [DEBUG] Play mode: False
+2017-01-20 20:02:27.2519 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:02:27.2869 [DEBUG] Play mode: True
+2017-01-20 20:02:33.9290 [DEBUG] Play mode: False
+2017-01-20 20:02:46.8320 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:02:46.8855 [DEBUG] Play mode: True
+2017-01-20 20:02:54.0083 [DEBUG] Play mode: False
+2017-01-20 20:03:09.9234 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:03:09.9584 [DEBUG] Play mode: True
+2017-01-20 20:03:18.5754 [DEBUG] Play mode: False
+2017-01-20 20:03:23.4721 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:03:23.5068 [DEBUG] Play mode: True
+2017-01-20 20:03:26.7053 [DEBUG] Play mode: False
+2017-01-20 20:03:40.7946 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:03:40.8364 [DEBUG] Play mode: True
+2017-01-20 20:03:44.9028 [DEBUG] Play mode: False
+2017-01-20 20:03:51.9651 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:03:52.0047 [DEBUG] Play mode: True
+2017-01-20 20:03:54.6125 [DEBUG] Play mode: False
+2017-01-20 20:04:06.3695 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:04:06.4090 [DEBUG] Play mode: True
+2017-01-20 20:04:09.1704 [DEBUG] Play mode: False
+2017-01-20 20:04:12.7690 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:04:12.8035 [DEBUG] Play mode: True
+2017-01-20 20:04:16.5950 [DEBUG] Play mode: False
+2017-01-20 20:04:24.7069 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:04:24.7481 [DEBUG] Play mode: True
+2017-01-20 20:04:53.3287 [DEBUG] Play mode: False
+2017-01-20 20:05:08.6710 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:05:08.7046 [DEBUG] Play mode: True
+2017-01-20 20:05:11.5639 [DEBUG] Play mode: False
+2017-01-20 20:05:33.9111 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:05:33.9456 [DEBUG] Play mode: True
+2017-01-20 20:05:37.8286 [DEBUG] Play mode: False
+2017-01-20 20:05:58.9555 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:05:58.9941 [DEBUG] Play mode: True
+2017-01-20 20:06:07.8999 [DEBUG] Play mode: False
+2017-01-20 20:06:09.7091 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:06:09.7409 [DEBUG] Play mode: True
+2017-01-20 20:06:16.9668 [DEBUG] Play mode: False
+2017-01-20 20:08:13.8709 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:08:13.9140 [DEBUG] Play mode: True
+2017-01-20 20:08:16.7137 [DEBUG] Play mode: False
+2017-01-20 20:08:18.8182 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:08:18.8587 [DEBUG] Play mode: True
+2017-01-20 20:08:22.1841 [DEBUG] Play mode: False
+2017-01-20 20:08:46.2919 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:08:46.3320 [DEBUG] Play mode: True
+2017-01-20 20:09:01.1221 [DEBUG] Play mode: False
+2017-01-20 20:10:21.7772 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:13:33.4225 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:23:22.8820 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:23:31.7905 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:23:31.8245 [DEBUG] Play mode: True
+2017-01-20 20:23:32.5885 [DEBUG] Play mode: False
+2017-01-20 20:24:17.7560 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:25:58.1506 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:25:59.9452 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:25:59.9838 [DEBUG] Play mode: True
+2017-01-20 20:26:04.4150 [DEBUG] Play mode: False
+2017-01-20 20:26:30.3690 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:26:30.4077 [DEBUG] Play mode: True
+2017-01-20 20:26:33.9604 [DEBUG] Play mode: False
+2017-01-20 20:26:43.7274 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:26:43.7655 [DEBUG] Play mode: True
+2017-01-20 20:26:46.5599 [DEBUG] Play mode: False
+2017-01-20 20:26:57.4069 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:26:57.4434 [DEBUG] Play mode: True
+2017-01-20 20:27:01.6556 [DEBUG] Play mode: False
+2017-01-20 20:27:39.8788 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:27:39.9173 [DEBUG] Play mode: True
+2017-01-20 20:27:43.5533 [DEBUG] Play mode: False
+2017-01-20 20:30:06.8093 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:30:06.8453 [DEBUG] Play mode: True
+2017-01-20 20:30:10.3165 [DEBUG] Play mode: False
+2017-01-20 20:30:35.0396 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:30:35.0762 [DEBUG] Play mode: True
+2017-01-20 20:30:36.3654 [DEBUG] Play mode: False
+2017-01-20 20:31:06.3869 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:31:06.4240 [DEBUG] Play mode: True
+2017-01-20 20:31:09.5835 [DEBUG] Play mode: False
+2017-01-20 20:32:42.7010 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:32:42.7365 [DEBUG] Play mode: True
+2017-01-20 20:32:44.4083 [DEBUG] Play mode: False
+2017-01-20 20:32:55.7311 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:32:55.7661 [DEBUG] Play mode: True
+2017-01-20 20:32:59.1505 [DEBUG] Play mode: False
+2017-01-20 20:52:51.6610 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:52:51.7108 [DEBUG] Play mode: True
+2017-01-20 20:52:58.9062 [DEBUG] Play mode: False
+2017-01-20 20:53:00.9678 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:53:01.0159 [DEBUG] Play mode: True
+2017-01-20 20:53:06.7446 [DEBUG] Play mode: False
+2017-01-20 20:54:29.6189 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:54:33.2211 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:54:33.2778 [DEBUG] Play mode: True
+2017-01-20 20:54:38.0644 [DEBUG] Play mode: False
+2017-01-20 20:56:24.5969 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:56:24.6822 [DEBUG] Play mode: True
+2017-01-20 20:56:28.3866 [DEBUG] Play mode: False
+2017-01-20 20:56:32.2316 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:56:32.2816 [DEBUG] Play mode: True
+2017-01-20 20:56:37.7062 [DEBUG] Play mode: False
+2017-01-20 20:56:49.8106 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:56:49.8694 [DEBUG] Play mode: True
+2017-01-20 20:56:53.3796 [DEBUG] Play mode: False
+2017-01-20 20:58:52.5934 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:58:52.6436 [DEBUG] Play mode: True
+2017-01-20 20:58:59.3605 [DEBUG] Play mode: False
+2017-01-20 20:59:13.3867 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:59:13.4770 [DEBUG] Play mode: True
+2017-01-20 20:59:18.3977 [DEBUG] Play mode: False
+2017-01-20 20:59:24.7684 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 20:59:24.8539 [DEBUG] Play mode: True
+2017-01-20 21:00:07.7440 [DEBUG] Play mode: False
+2017-01-20 21:00:09.8788 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:00:09.9188 [DEBUG] Play mode: True
+2017-01-20 21:00:15.0782 [DEBUG] Play mode: False
+2017-01-20 21:00:20.8066 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:00:20.8486 [DEBUG] Play mode: True
+2017-01-20 21:00:21.7992 [DEBUG] Play mode: False
+2017-01-20 21:00:29.9706 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:00:30.0091 [DEBUG] Play mode: True
+2017-01-20 21:00:33.9978 [DEBUG] Play mode: False
+2017-01-20 21:00:38.1340 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:00:38.1725 [DEBUG] Play mode: True
+2017-01-20 21:00:40.4842 [DEBUG] Play mode: False
+2017-01-20 21:00:50.8373 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:00:50.8756 [DEBUG] Play mode: True
+2017-01-20 21:00:54.1298 [DEBUG] Play mode: False
+2017-01-20 21:01:36.2587 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:01:36.2967 [DEBUG] Play mode: True
+2017-01-20 21:01:37.7347 [DEBUG] Play mode: False
+2017-01-20 21:01:41.3531 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:01:41.3891 [DEBUG] Play mode: True
+2017-01-20 21:01:43.1011 [DEBUG] Play mode: False
+2017-01-20 21:03:25.2845 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:03:25.3215 [DEBUG] Play mode: True
+2017-01-20 21:03:28.6941 [DEBUG] Play mode: False
+2017-01-20 21:03:47.7322 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:03:47.7712 [DEBUG] Play mode: True
+2017-01-20 21:03:51.6247 [DEBUG] Play mode: False
+2017-01-20 21:03:55.0077 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:03:55.0467 [DEBUG] Play mode: True
+2017-01-20 21:03:59.2069 [DEBUG] Play mode: False
+2017-01-20 21:04:32.9999 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:04:33.0419 [DEBUG] Play mode: True
+2017-01-20 21:04:38.5043 [DEBUG] Play mode: False
+2017-01-20 21:04:43.4359 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:04:43.4785 [DEBUG] Play mode: True
+2017-01-20 21:04:46.2143 [DEBUG] Play mode: False
+2017-01-20 21:05:03.1014 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:05:03.1440 [DEBUG] Play mode: True
+2017-01-20 21:05:04.1228 [DEBUG] Play mode: False
+2017-01-20 21:05:10.0128 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:05:10.0559 [DEBUG] Play mode: True
+2017-01-20 21:05:10.8289 [DEBUG] Play mode: False
+2017-01-20 21:05:15.3275 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:05:15.3926 [DEBUG] Play mode: True
+2017-01-20 21:05:15.9928 [DEBUG] Play mode: False
+2017-01-20 21:05:25.1900 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:05:25.2265 [DEBUG] Play mode: True
+2017-01-20 21:05:27.3097 [DEBUG] Play mode: False
+2017-01-20 21:05:34.0669 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:05:34.1129 [DEBUG] Play mode: True
+2017-01-20 21:05:36.3009 [DEBUG] Play mode: False
+2017-01-20 21:05:41.5957 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:05:41.6365 [DEBUG] Play mode: True
+2017-01-20 21:05:44.3633 [DEBUG] Play mode: False
+2017-01-20 21:05:58.7411 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:05:58.7791 [DEBUG] Play mode: True
+2017-01-20 21:06:00.4453 [DEBUG] Play mode: False
+2017-01-20 21:06:53.2204 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:06:53.2644 [DEBUG] Play mode: True
+2017-01-20 21:06:55.1334 [DEBUG] Play mode: False
+2017-01-20 21:06:57.2019 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:06:57.2445 [DEBUG] Play mode: True
+2017-01-20 21:06:59.4752 [DEBUG] Play mode: False
+2017-01-20 21:07:56.0006 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:07:56.0376 [DEBUG] Play mode: True
+2017-01-20 21:07:57.6596 [DEBUG] Play mode: False
+2017-01-20 21:08:03.5736 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:08:03.6127 [DEBUG] Play mode: True
+2017-01-20 21:08:06.1395 [DEBUG] Play mode: False
+2017-01-20 21:09:41.5845 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:09:41.6201 [DEBUG] Play mode: True
+2017-01-20 21:09:42.5634 [DEBUG] Play mode: False
+2017-01-20 21:09:48.8381 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:09:48.8766 [DEBUG] Play mode: True
+2017-01-20 21:09:52.0690 [DEBUG] Play mode: False
+2017-01-20 21:09:54.3045 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:09:54.3465 [DEBUG] Play mode: True
+2017-01-20 21:09:57.1047 [DEBUG] Play mode: False
+2017-01-20 21:10:02.6331 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:10:02.6731 [DEBUG] Play mode: True
+2017-01-20 21:10:03.8988 [DEBUG] Play mode: False
+2017-01-20 21:10:12.4997 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:10:12.5412 [DEBUG] Play mode: True
+2017-01-20 21:10:14.6725 [DEBUG] Play mode: False
+2017-01-20 21:18:43.6282 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:18:55.7918 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:20:03.4317 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:20:03.4726 [DEBUG] Play mode: True
+2017-01-20 21:20:06.4851 [DEBUG] Play mode: False
+2017-01-20 21:20:12.4030 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:20:12.4416 [DEBUG] Play mode: True
+2017-01-20 21:20:15.4855 [DEBUG] Play mode: False
+2017-01-20 21:21:39.2744 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:21:48.5466 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:21:58.7055 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:22:48.2678 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:30:47.8158 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:31:29.7542 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:31:38.6308 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:31:38.6733 [DEBUG] Play mode: True
+2017-01-20 21:31:45.7449 [DEBUG] Play mode: False
+2017-01-20 21:32:19.3413 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:32:19.3893 [DEBUG] Play mode: True
+2017-01-20 21:33:05.3469 [DEBUG] Play mode: False
+2017-01-20 21:33:50.5404 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:33:50.5799 [DEBUG] Play mode: True
+2017-01-20 21:34:07.3254 [DEBUG] Play mode: False
+2017-01-20 21:35:21.6699 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:35:21.7054 [DEBUG] Play mode: True
+2017-01-20 21:35:40.9902 [DEBUG] Play mode: False
+2017-01-20 21:35:43.0800 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:35:43.1216 [DEBUG] Play mode: True
+2017-01-20 21:37:53.2827 [DEBUG] Play mode: False
+2017-01-20 21:37:55.4309 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:37:55.4670 [DEBUG] Play mode: True
+2017-01-20 21:38:01.0391 [DEBUG] Play mode: False
+2017-01-20 21:43:03.8253 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:43:37.0358 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:43:37.0721 [DEBUG] Play mode: True
+2017-01-20 21:49:51.5051 [DEBUG] Play mode: False
+2017-01-20 21:53:22.8910 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:53:22.9344 [DEBUG] Play mode: True
+2017-01-20 21:53:31.5274 [DEBUG] Play mode: False
+2017-01-20 21:53:35.3529 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 21:53:35.3889 [DEBUG] Play mode: True
+2017-01-20 21:53:40.5066 [DEBUG] Play mode: False
+2017-01-20 22:03:04.9541 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:03:04.9889 [DEBUG] Play mode: True
+2017-01-20 22:03:14.1248 [DEBUG] Play mode: False
+2017-01-20 22:05:25.1152 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:05:25.1563 [DEBUG] Play mode: True
+2017-01-20 22:05:31.7040 [DEBUG] Play mode: False
+2017-01-20 22:05:45.4608 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:05:45.4958 [DEBUG] Play mode: True
+2017-01-20 22:05:53.8449 [DEBUG] Play mode: False
+2017-01-20 22:06:23.7014 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:06:23.7409 [DEBUG] Play mode: True
+2017-01-20 22:06:30.0497 [DEBUG] Play mode: False
+2017-01-20 22:06:39.2448 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:06:39.2861 [DEBUG] Play mode: True
+2017-01-20 22:06:44.8096 [DEBUG] Play mode: False
+2017-01-20 22:06:57.6424 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:06:57.6776 [DEBUG] Play mode: True
+2017-01-20 22:07:16.6111 [DEBUG] Play mode: False
+2017-01-20 22:13:51.0466 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:13:51.0830 [DEBUG] Play mode: True
+2017-01-20 22:20:18.6387 [DEBUG] Play mode: False
+2017-01-20 22:20:20.7251 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:20:20.7618 [DEBUG] Play mode: True
+2017-01-20 22:20:38.9117 [DEBUG] Play mode: False
+2017-01-20 22:45:02.4030 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:45:05.9998 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:45:10.7988 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:45:10.8388 [DEBUG] Play mode: True
+2017-01-20 22:45:13.7233 [DEBUG] Play mode: False
+2017-01-20 22:46:31.4660 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:46:35.8076 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:46:35.8536 [DEBUG] Play mode: True
+2017-01-20 22:46:39.9842 [DEBUG] Play mode: False
+2017-01-20 22:46:48.7295 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:46:48.7710 [DEBUG] Play mode: True
+2017-01-20 22:48:46.9664 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:48:47.3959 [DEBUG] Play mode: False
+2017-01-20 22:48:49.7769 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:48:49.8149 [DEBUG] Play mode: True
+2017-01-20 22:49:44.7640 [DEBUG] Play mode: False
+2017-01-20 22:51:30.8266 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:51:30.8686 [DEBUG] Play mode: True
+2017-01-20 22:52:04.2178 [DEBUG] Play mode: False
+2017-01-20 22:52:22.7516 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:52:22.7891 [DEBUG] Play mode: True
+2017-01-20 22:52:31.7053 [DEBUG] Play mode: False
+2017-01-20 22:52:51.4774 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:52:51.5259 [DEBUG] Play mode: True
+2017-01-20 22:52:55.5273 [DEBUG] Play mode: False
+2017-01-20 22:54:47.8805 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:54:47.9295 [DEBUG] Play mode: True
+2017-01-20 22:54:53.0299 [DEBUG] Play mode: False
+2017-01-20 22:55:12.8770 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:55:14.8359 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:55:14.8810 [DEBUG] Play mode: True
+2017-01-20 22:55:19.3565 [DEBUG] Play mode: False
+2017-01-20 22:55:35.7376 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:55:35.7824 [DEBUG] Play mode: True
+2017-01-20 22:55:43.1566 [DEBUG] Play mode: False
+2017-01-20 22:56:22.8227 [DEBUG] Scene Fusion version 1.2.0
+2017-01-20 22:56:22.8672 [DEBUG] Play mode: True
+2017-01-20 22:57:30.8215 [DEBUG] Play mode: False
