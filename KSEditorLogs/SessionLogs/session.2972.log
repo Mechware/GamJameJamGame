@@ -1,0 +1,15 @@
+2017-01-20 18:43:45.7772 [DEBUG] Authenticating with server...
+2017-01-20 18:43:45.8362 [DEBUG] Connected to room. (2972:FusionScene:SceneFusion)
+2017-01-20 18:43:45.8412 [INFO] Connected to server.
+2017-01-20 18:43:45.8512 [DEBUG] OS : Microsoft Windows NT 6.1.7601.0
+2017-01-20 18:43:45.8512 [DEBUG] Unity Version : 5.5.0f3
+2017-01-20 18:43:45.8522 [DEBUG] Pro License : False
+2017-01-20 18:43:45.8522 [DEBUG] Platform : WindowsEditor
+2017-01-20 18:43:45.8522 [DEBUG] Build Target : StandaloneWindows
+2017-01-20 18:43:45.8522 [DEBUG] Scene Fusion version : 1.2.0
+2017-01-20 18:43:45.8522 [DEBUG] User : gperry@uvic.ca
+2017-01-20 18:43:45.9612 [DEBUG] Tier: Beta, Permissions: FFFFFFFF
+2017-01-20 18:43:45.9622 [DEBUG] User Permissions: FFFFFFFF
+2017-01-20 18:54:05.9897 [DEBUG] Disconnecting from room (2972:FusionScene:SceneFusion)
+2017-01-20 18:55:35.2818 [INFO] Disconnected from server.
+2017-01-20 18:55:35.2878 [DEBUG] Disconnect. (Duration: 619)
