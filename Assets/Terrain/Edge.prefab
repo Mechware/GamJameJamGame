@@ -68,7 +68,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4879310997625514}
   m_Layer: 10
-  m_Name: Bottom
+  m_Name: Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
