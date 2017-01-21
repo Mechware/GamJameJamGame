@@ -28,7 +28,7 @@ public class Bullet : MonoBehaviour {
 
     public void setStartPosition(Vector3 position, Vector2 direction) {
         transform.position = position;
-        movementVector = -1*direction;
+        movementVector = direction;
         movementVector.Normalize();
         movementVector *= movementSpeed;
         GetComponent<Rigidbody2D>().velocity = movementVector;
