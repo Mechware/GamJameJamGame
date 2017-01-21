@@ -20,7 +20,9 @@ public class ShootBullets : MonoBehaviour {
             mouseWorldPosition.z = 0;
             Vector3 direction = transform.position - mouseWorldPosition;
             GameObject bulletObj = Instantiate(bullet);
-            bulletObj.GetComponent<Bullet>().setStartPosition(transform.position, direction);
+            Vector3 startPos = transform.position;
+            startPos.x += 3;
+            bulletObj.GetComponent<Bullet>().setStartPosition(startPos, direction);
 
         }
 	}

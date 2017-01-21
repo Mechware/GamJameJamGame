@@ -12,6 +12,7 @@ public class Bullet : MonoBehaviour {
         
 	}
 
+    /*
     public void setStartPosition(Vector3 position, Vector2 direction) {
         transform.position = position;
         movementVector = -1*direction;
@@ -23,5 +24,13 @@ public class Bullet : MonoBehaviour {
 	void Update () {
         Vector3 whereToMove = Time.deltaTime*movementVector;
         transform.Translate(whereToMove);
-	}
+	}*/
+
+    public void setStartPosition(Vector3 position, Vector2 direction) {
+        transform.position = position;
+        movementVector = -1*direction;
+        movementVector.Normalize();
+        movementVector *= movementSpeed;
+        GetComponent<Rigidbody2D>().velocity = movementVector;
+    }
 }
