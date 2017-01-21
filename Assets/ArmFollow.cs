@@ -19,22 +19,7 @@ public class ArmFollow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        /*
-        Vector3 zeroAngle;
-        zeroAngle.x = 1; zeroAngle.y = 0; zeroAngle.z = 0;
-        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mousePosition.z = 0;
-        float mouseAngle = Vector3.Angle(zeroAngle, mousePosition);
-        print("" + mouseAngle);
-        if (transform.position.y > mousePosition.y)
-        {
-            transform.rotation = Quaternion.Euler(0, 0, -mouseAngle);
-        }
-        else
-        {
-            transform.rotation = Quaternion.Euler(0, 0, mouseAngle);
-        }*/
-
+      
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePosition.z = 0;
         Vector3 direction = mousePosition - transform.position;
