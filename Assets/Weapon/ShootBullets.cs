@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShootBullets : MonoBehaviour {
 
     public GameObject bullet;
+    public Transform startPosition;
 
 	// Use this for initialization
 	void Start () {
@@ -20,9 +21,7 @@ public class ShootBullets : MonoBehaviour {
             mouseWorldPosition.z = 0;
             Vector3 direction = transform.position - mouseWorldPosition;
             GameObject bulletObj = Instantiate(bullet);
-            Vector3 startPos = transform.position;
-            startPos.x += 3;
-            bulletObj.GetComponent<Bullet>().setStartPosition(startPos, direction);
+            bulletObj.GetComponent<Bullet>().setStartPosition(startPosition.position, direction);
 
         }
 	}
