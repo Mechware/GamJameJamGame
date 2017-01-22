@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ArmFollow : MonoBehaviour {
 
-    [SerializeField] private int playerNumber;
+    public int playerNumber;
     //[SerializeField] private string joyY;
     private Vector3 armVector;
     private Vector3 gunAimerPos;
@@ -20,6 +20,8 @@ public class ArmFollow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+
       
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePosition.z = 0;
@@ -30,5 +32,9 @@ public class ArmFollow : MonoBehaviour {
         
         
 
+    }
+
+    public void setPlayerNumber(int playNum) {
+        playerNumber = playNum;
     }
 }

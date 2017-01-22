@@ -28,4 +28,8 @@ public class ShootBullets : MonoBehaviour {
             bulletObj.GetComponent<Bullet>().setStartPosition(startPosition.position, direction, gameObject);
         }
 	}
+
+    public void setPlayerNumber(int playNum) {
+        playerNumber = playNum;
+    }
 }

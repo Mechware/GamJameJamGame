@@ -7,7 +7,7 @@ namespace UnityStandardAssets._2D
     [RequireComponent(typeof (PlatformerCharacter2D))]
     public class Platformer2DUserControl : MonoBehaviour
     {
-        [SerializeField] private int playerNumber; 
+        public int playerNumber; 
         //[SerializeField] private string horizontalName;
         private PlatformerCharacter2D m_Character;
         private bool m_Jump;
@@ -38,6 +38,10 @@ namespace UnityStandardAssets._2D
             // Pass all parameters to the character control script.
             m_Character.Move(h, crouch, m_Jump);
             m_Jump = false;
+        }
+
+        public void setPlayerNumber(int playNum) {
+            playerNumber = playNum;
         }
     }
 }

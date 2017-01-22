@@ -272,6 +272,57 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &618823156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 618823157}
+  - component: {fileID: 618823158}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &618823157
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 618823156}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.71, y: -0.01, z: -1}
+  m_LocalScale: {x: 0.61479616, y: 0.6147962, z: 0.6147962}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &618823158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 618823156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1ef8e9ad98def44af05d880c04ca67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deBrock: 0
+  plonck: 0
+  shrod: 0
+  p1: 0
+  p2: 0
+  p3: 0
+  playButton: {fileID: 1218247546}
+  play: {fileID: 1218247543}
+  deBroccoli: {fileID: 901193228}
+  drPlonck: {fileID: 1023978821}
+  shrodanger: {fileID: 470251220}
 --- !u!1 &901193228
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,3 +651,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b72e16da820349458e1eb68372567ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canPlay: 0
