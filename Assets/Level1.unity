@@ -522,6 +522,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 95955973151292500, guid: 155bad280c30bc4438e5834cd080121d,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: abcd932bd42d08b4e83c8de4099c7eef, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 155bad280c30bc4438e5834cd080121d, type: 2}
   m_IsPrefabParent: 0
@@ -1005,6 +1010,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 95325574995267436, guid: 1d6bb87430d21b84dbd0b270da9bb1a1,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2455d09a83acd2b418a8911aebcc2840, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1d6bb87430d21b84dbd0b270da9bb1a1, type: 2}
   m_IsPrefabParent: 0
@@ -2056,7 +2066,7 @@ MonoBehaviour:
   menu: {fileID: 1671088545}
   players:
   - {fileID: 1682404257}
-  - {fileID: 1865425960}
+  - {fileID: 0}
 --- !u!224 &568649178
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2068,7 +2078,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3154,7 +3164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   players:
-  - {fileID: 1989709599}
+  - {fileID: 1682404257}
   - {fileID: 779750962}
   - {fileID: 1463041660}
 --- !u!1 &821757004
@@ -5233,7 +5243,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1671088546
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5247,7 +5257,7 @@ RectTransform:
   - {fileID: 1121741631}
   - {fileID: 2060690094}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5979,11 +5989,6 @@ BoxCollider2D:
   m_Offset: {x: 47.502815, y: 12.80861}
   serializedVersion: 2
   m_Size: {x: 4.9171867, y: 0.6227131}
---- !u!1 &1865425960 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1957099472623496, guid: 155bad280c30bc4438e5834cd080121d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1924874469}
 --- !u!1 &1868013002
 GameObject:
   m_ObjectHideFlags: 0
@@ -6205,11 +6210,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1989709599 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1957099472623496, guid: 155bad280c30bc4438e5834cd080121d,
-    type: 2}
-  m_PrefabInternal: {fileID: 85619638}
 --- !u!1 &2018912290
 GameObject:
   m_ObjectHideFlags: 0
@@ -6708,8 +6708,7 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 964592faa7fdfa44bbb5753f492ab657,
-        type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a981991615b89a9429b3e85fa83a05db, type: 2}
   m_IsPrefabParent: 0

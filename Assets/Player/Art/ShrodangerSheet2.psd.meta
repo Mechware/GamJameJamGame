@@ -1,17 +1,15 @@
 fileFormatVersion: 2
-guid: 964592faa7fdfa44bbb5753f492ab657
-timeCreated: 1485065258
+guid: 7ff27033933769446886ce4986c41e8c
+timeCreated: 1485066621
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: PlonckSheet_0
-    21300002: PlonckSheet_1
-    21300004: PlonckSheet_2
-    21300006: PlonckSheet_3
-    21300008: PlonckSheet_4
-    21300010: PlonckSheet_5
-    21300012: PlonckSheet_6
-    21300014: PlonckSheet_7
+    21300000: ShrodangerSheet2_0
+    21300002: ShrodangerSheet2_1
+    21300004: ShrodangerSheet2_2
+    21300006: ShrodangerSheet2_3
+    21300008: ShrodangerSheet2_4
+    21300010: ShrodangerSheet2_5
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -86,104 +84,78 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlonckSheet_0
+      name: ShrodangerSheet2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 250
+        y: 400
         width: 200
-        height: 250
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PlonckSheet_1
+      name: ShrodangerSheet2_1
       rect:
         serializedVersion: 2
         x: 200
-        y: 250
+        y: 400
         width: 200
-        height: 250
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PlonckSheet_2
+      name: ShrodangerSheet2_2
       rect:
         serializedVersion: 2
         x: 400
-        y: 250
+        y: 400
         width: 200
-        height: 250
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PlonckSheet_3
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 250
-        width: 200
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: PlonckSheet_4
+      name: ShrodangerSheet2_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 200
-        height: 250
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PlonckSheet_5
+      name: ShrodangerSheet2_4
       rect:
         serializedVersion: 2
         x: 200
         y: 0
         width: 200
-        height: 250
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PlonckSheet_6
+      name: ShrodangerSheet2_5
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 200
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: PlonckSheet_7
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 200
-        height: 250
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
