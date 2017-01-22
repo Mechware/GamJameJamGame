@@ -3605,7 +3605,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Press Pad button to return to main menu
+  m_Text: Press Pad button to return to roll credits
 --- !u!222 &914286767
 CanvasRenderer:
   m_ObjectHideFlags: 0

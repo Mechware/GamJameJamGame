@@ -19,12 +19,12 @@ public class SwitchScenes : MonoBehaviour {
 		if(CrossPlatformInputManager.GetButtonDown("Jump 1") ||
            CrossPlatformInputManager.GetButtonDown("Jump 2") ||
            CrossPlatformInputManager.GetButtonDown("Jump 3")) {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("TitleScreen");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Title");
         }
 	}
 
     IEnumerator switchScenes() {
         yield return new WaitForSeconds(waitTime);
-        UnityEngine.SceneManagement.SceneManager.LoadScene("TitleScreen");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Title");
     }
 }

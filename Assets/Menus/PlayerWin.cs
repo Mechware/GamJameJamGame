@@ -7,7 +7,8 @@ public class PlayerWin : MonoBehaviour {
 
     private int winNumber;
     private string player;
-    public GameObject win; 
+    public GameObject win;
+    private bool canRollCredits = false;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +17,7 @@ public class PlayerWin : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetButtonDown("MainMenu")) {
+        if (Input.GetButtonDown("MainMenu") && canRollCredits) {
             UnityEngine.SceneManagement.SceneManager.LoadScene("CreditsScene");
         }
 	}
@@ -27,7 +28,7 @@ public class PlayerWin : MonoBehaviour {
             collision.collider.transform.parent.GetComponent<SayStuff>().sayVictory();
             player = collision.collider.transform.parent.GetComponent<ShootBullets>().name + " WINS!";
             Time.timeScale = 0f;
-
+            canRollCredits = true;
             win.SetActive(true);
             win.GetComponentInChildren<Text>().text = player;
             
