@@ -262,6 +262,7 @@ MonoBehaviour:
   movementSpeed: 75
   destoryTags:
   - Edge
+  - Ground
 --- !u!114 &114739148511758068
 MonoBehaviour:
   m_ObjectHideFlags: 1
