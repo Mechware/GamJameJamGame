@@ -101,5 +101,12 @@ public class PlayerAssign : MonoBehaviour {
             bullets[2].setPlayerNumber(p3);
             moves[2].setPlayerNumber(p3);
         }
+
+        if(!characters[0].activeSelf && !characters[1].activeSelf && !characters[2].activeSelf) {
+            characters[0].SetActive(true);
+            arms[0].setPlayerNumber(1);
+            bullets[0].setPlayerNumber(1);
+            moves[0].setPlayerNumber(1);
+        }
     }
 }

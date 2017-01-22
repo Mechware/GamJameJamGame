@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour {
     }
 
     public void setStartPosition(Vector3 position, Vector2 direction, GameObject playerThatShotThis) {
-        if (direction.magnitude == 0)
+        if (direction.magnitude == 0 || Time.timeScale == 0)
             Destroy(gameObject);
         transform.position = position;
         movementVector = direction;

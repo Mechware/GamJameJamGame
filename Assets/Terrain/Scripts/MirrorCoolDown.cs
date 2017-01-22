@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class MirrorCoolDown : MonoBehaviour {
 
-    private bool isWait;
-    public int timeToWait;
+    private bool waiting;
+    public float timeToWait;
 
 	// Use this for initialization
 	void Start () {
-        isWait = false;
+        waiting = false;
 
 	}
 	
@@ -19,8 +19,7 @@ public class MirrorCoolDown : MonoBehaviour {
 	}
 
     private void OnCollisionEnter2D(Collision2D collision) {
-        if (!isWait) {
-            GetComponent<Collider2D>().isTrigger = false;
+        if (!waiting) {
             if (collision.collider.CompareTag("Bullet")) {
                 GetComponent<Collider2D>().isTrigger = true;
                 StartCoroutine(waitTime(timeToWait));
@@ -29,9 +28,10 @@ public class MirrorCoolDown : MonoBehaviour {
 
     }
 
-    IEnumerator waitTime(int length) {
-        isWait = true;
+    IEnumerator waitTime(float length) {
+        waiting = true;
         yield return new WaitForSeconds(length);
-        isWait = false;
+        GetComponent<Collider2D>().isTrigger = false;
+        waiting = false;
     }
 }

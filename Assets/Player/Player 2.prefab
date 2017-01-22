@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 114010773895001282}
   - component: {fileID: 50580551402586694}
   - component: {fileID: 114305817026150306}
-  m_Layer: 0
+  - component: {fileID: 114388797461582732}
+  m_Layer: 8
   m_Name: Player 2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,9 +40,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4871343961350236}
   - component: {fileID: 114364204539448302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gun Aimer (1)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,9 +55,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4044014352427250}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundCheck
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4067648828301170}
   - component: {fileID: 212956573576690320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gun Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,9 +88,9 @@ GameObject:
   - component: {fileID: 4176674257407936}
   - component: {fileID: 212936670476864968}
   - component: {fileID: 95786494375766096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,9 +103,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4869073345859024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CeilingCheck
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,7 +118,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4073111566277234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bullet Starting Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,9 +135,9 @@ GameObject:
   - component: {fileID: 4581022591266422}
   - component: {fileID: 60180338383881190}
   - component: {fileID: 58530659767425530}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Colliders
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -187,8 +188,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1546846851906036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 0, y: -0.08, z: 0}
+  m_LocalScale: {x: 1.75, y: 1.75, z: 1}
   m_Children: []
   m_Father: {fileID: 4802485515675482}
   m_RootOrder: 0
@@ -213,7 +214,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1125343311226734}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -52.05, y: -13.16, z: 0}
+  m_LocalPosition: {x: -38.34, y: -12.71, z: 0}
   m_LocalScale: {x: 1.75, y: 1.75, z: 1}
   m_Children:
   - {fileID: 4176674257407936}
@@ -334,7 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3d7b34a3bb2d4e4b926e7e729d3d410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNumber: 2
+  playerNumber: 0
 --- !u!114 &114141603091174310
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -352,7 +353,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967039
 --- !u!114 &114305817026150306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -366,7 +367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 1282433310065944, guid: 81ef2420d21c9da41978f2a6ae6122c2, type: 2}
   startPosition: {fileID: 4073111566277234}
-  playerNumber: 2
+  playerNumber: 0
 --- !u!114 &114364204539448302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -378,7 +379,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72afb6894d5a89d489b39cd09fdb6dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNumber: 2
+  playerNumber: 0
+--- !u!114 &114388797461582732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1125343311226734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a7f407d8579e8a42b179a8dfbea0fc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212936670476864968
 SpriteRenderer:
   m_ObjectHideFlags: 1
