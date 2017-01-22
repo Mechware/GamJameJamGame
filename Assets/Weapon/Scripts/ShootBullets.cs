@@ -27,7 +27,6 @@ public class ShootBullets : MonoBehaviour {
             Vector3 direction = joystickPosition;
             GameObject bulletObj = Instantiate(bullet);
             bulletObj.GetComponent<Bullet>().setStartPosition(startPosition.position, direction, gameObject);
-
         }
 	}
 }
