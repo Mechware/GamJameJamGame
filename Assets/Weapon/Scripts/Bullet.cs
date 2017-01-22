@@ -44,6 +44,7 @@ public class Bullet : MonoBehaviour {
             foreach (Collider2D thisPlayersCollider in thisPlayersColliders) {
                 if(collision.collider == thisPlayersCollider) {
                     playerThatShotThis.GetComponent<PlayerSizeChanger>().hitPlayerWithShrinkWave(0.25f);
+                    playerThatShotThis.GetComponent<SayStuff>().sayShrinkSaying();
                     Destroy(this.gameObject);
                     return;
                 }

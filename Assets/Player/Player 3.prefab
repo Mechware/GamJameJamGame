@@ -70,7 +70,9 @@ GameObject:
   - component: {fileID: 114154041857548342}
   - component: {fileID: 50004748575805536}
   - component: {fileID: 114142062317134098}
-  - component: {fileID: 114536094836089232}
+  - component: {fileID: 114440572577385306}
+  - component: {fileID: 114462682733564576}
+  - component: {fileID: 82157580496719122}
   m_Layer: 8
   m_Name: Player 3
   m_TagString: Player
@@ -307,6 +309,86 @@ PolygonCollider2D:
       - {x: 0.15306744, y: -0.56074834}
       - {x: -0.13587297, y: -0.5668415}
       - {x: -0.6304277, y: -0.09176624}
+--- !u!82 &82157580496719122
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1476293792962516}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95760288237521508
 Animator:
   serializedVersion: 3
@@ -335,6 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80f495f059c0f594d8c1b7370ba0e7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: Dr. Shrodanger
   bullet: {fileID: 1282433310065944, guid: 81ef2420d21c9da41978f2a6ae6122c2, type: 2}
   startPosition: {fileID: 4473632928990114}
   playerNumber: 0
@@ -381,7 +464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerNumber: 0
---- !u!114 &114536094836089232
+--- !u!114 &114440572577385306
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -392,6 +475,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a7f407d8579e8a42b179a8dfbea0fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114462682733564576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1476293792962516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66fe44c1a9ddd4544813ca15da8fdbde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  victorySaying: {fileID: 8300000, guid: 29d4633fa1c1d7f4cabcc244bda60ad9, type: 3}
+  shrinkSaying: {fileID: 8300000, guid: 367d1e1e38988934a99251783b13f212, type: 3}
 --- !u!212 &212756843747631094
 SpriteRenderer:
   m_ObjectHideFlags: 1

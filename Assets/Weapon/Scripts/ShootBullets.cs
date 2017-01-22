@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ShootBullets : MonoBehaviour {
 
+    public string name;
     public GameObject bullet;
     public Transform startPosition;
     public int playerNumber;

@@ -12,8 +12,8 @@ public class StartGame : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetButton("Start") && canPlay ) {
-            Application.LoadLevel("Level1");
+        if (Input.GetButton("Start") && canPlay) {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
         }
 	}
 
