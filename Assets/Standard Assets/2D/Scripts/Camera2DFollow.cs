@@ -76,7 +76,7 @@ public class Camera2DFollow : MonoBehaviour
         } else if (maxDistance.magnitude > maxLength) {
             cam.orthographicSize = maxZoom;
         } else {
-            cam.orthographicSize = ((maxDistance.magnitude-25)/(maxLength-25))*(maxZoom-15)+15;
+            cam.orthographicSize = ((maxDistance.magnitude-minLength)/(maxLength-minLength))*(maxZoom-minZoom)+minZoom;
         }
 
         return;

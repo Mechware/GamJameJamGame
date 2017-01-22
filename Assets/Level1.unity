@@ -3029,7 +3029,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14.145883
+  orthographic size: 15.28679
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4100,7 +4100,7 @@ GameObject:
   - component: {fileID: 1221818773}
   m_Layer: 0
   m_Name: Block (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4114,7 +4114,7 @@ Transform:
   m_GameObject: {fileID: 1221818772}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -53.82, y: 4.77, z: 0}
-  m_LocalScale: {x: 2.0776806, y: 1, z: 1}
+  m_LocalScale: {x: 1.6623143, y: 1, z: 1}
   m_Children:
   - {fileID: 1748741674}
   m_Father: {fileID: 728802180}
@@ -6541,8 +6541,8 @@ PolygonCollider2D:
     - - {x: -0.14314632, y: 3.134135}
       - {x: 1.8289429, y: -6.315841}
       - {x: 4.285144, y: -6.453361}
-      - {x: 4.3218107, y: -9.433434}
-      - {x: 1.8002656, y: -9.178553}
+      - {x: 4.30665, y: -7.689874}
+      - {x: 1.7092972, y: -7.662416}
       - {x: -0.21695939, y: 0.17026949}
       - {x: -1.977739, y: 0.19245577}
       - {x: -1.9729172, y: 3.2194085}
