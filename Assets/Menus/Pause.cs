@@ -6,7 +6,6 @@ public class Pause : MonoBehaviour {
 
     private bool isPause = false;
     public GameObject menu;
-    public GameObject[] players;
 
 
 	// Use this for initialization
