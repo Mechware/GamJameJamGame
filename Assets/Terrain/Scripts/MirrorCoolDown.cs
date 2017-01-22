@@ -22,6 +22,9 @@ public class MirrorCoolDown : MonoBehaviour {
         if (!waiting) {
             if (collision.collider.CompareTag("Bullet")) {
                 GetComponent<Collider2D>().isTrigger = true;
+                Color sprite = GetComponentInParent<SpriteRenderer>().color;
+                sprite.a = 0.5f;
+                GetComponentInParent<SpriteRenderer>().color = sprite;
                 StartCoroutine(waitTime(timeToWait));
             }   
         }
@@ -32,6 +35,9 @@ public class MirrorCoolDown : MonoBehaviour {
         waiting = true;
         yield return new WaitForSeconds(length);
         GetComponent<Collider2D>().isTrigger = false;
+        Color sprite = GetComponentInParent<SpriteRenderer>().color;
+        sprite.a = 1f;
+        GetComponentInParent<SpriteRenderer>().color = sprite;
         waiting = false;
     }
 }
