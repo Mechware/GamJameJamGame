@@ -40,7 +40,6 @@ namespace UnityStandardAssets._2D
             for (int i = 0; i < colliders.Length; i++)
             {
                 if (colliders[i].gameObject != gameObject) {
-                    print(colliders[i].gameObject.tag);
                     m_Grounded = true;
                 }
                     
