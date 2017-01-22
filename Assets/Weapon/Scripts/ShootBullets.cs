@@ -6,7 +6,7 @@ public class ShootBullets : MonoBehaviour {
 
     public GameObject bullet;
     public Transform startPosition;
-    [SerializeField] private int playerNumber;
+    public int playerNumber;
     //[SerializeField] private string joyX;
     //[SerializeField] private string joyY;
     
@@ -20,7 +20,6 @@ public class ShootBullets : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetButtonDown("Fire " + playerNumber)) {
-            print(playerNumber);
             Vector3 mouse = Input.mousePosition;
             mouse.z = 0;            
             Vector3 joystickPosition = new Vector3(Input.GetAxis("Joy X " + playerNumber), Input.GetAxis("Joy Y " + playerNumber), 0);

@@ -18,6 +18,9 @@ public class PlayerSizeChanger : MonoBehaviour {
         bool flipped = transform.localScale.x < 0;
         Vector3 shrinkAmount = startSize*shrinkPercent;
         shrinkAmount.x = flipped ? -1*shrinkAmount.x : shrinkAmount.x;
+        if((transform.localScale - shrinkAmount).magnitude < 0.05f) {
+            return;
+        }
         transform.localScale -= shrinkAmount;
     }
 
@@ -25,6 +28,9 @@ public class PlayerSizeChanger : MonoBehaviour {
         bool flipped = transform.localScale.x < 0;
         Vector3 growAmount = startSize*growPercent;
         growAmount.x = flipped ? -1*growAmount.x : growAmount.x;
+        if ((transform.localScale + growAmount).magnitude > startSize.magnitude) {
+            return;
+        }
         transform.localScale += growAmount;
     }
 }

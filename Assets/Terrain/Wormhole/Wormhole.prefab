@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4028729489553410}
   - component: {fileID: 212167595080008680}
   - component: {fileID: 95873698674518972}
+  - component: {fileID: 58201263238045790}
   m_Layer: 0
   m_Name: Wormhole
   m_TagString: Untagged
@@ -41,6 +42,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &58201263238045790
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686975632655390}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 4
 --- !u!95 &95873698674518972
 Animator:
   serializedVersion: 3

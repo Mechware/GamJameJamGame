@@ -15,16 +15,24 @@ public class Bullet : MonoBehaviour {
         
 	}
 
+    void Update() {
+        
+    }
+
     public void setStartPosition(Vector3 position, Vector2 direction, GameObject playerThatShotThis) {
+        if (direction.magnitude == 0)
+            Destroy(gameObject);
         transform.position = position;
         movementVector = direction;
         movementVector.Normalize();
         movementVector *= movementSpeed;
         GetComponent<Rigidbody2D>().velocity = movementVector;
+        this.playerThatShotThis = playerThatShotThis;
+        
     }
 
     void OnCollisionEnter2D(Collision2D collision) {
-        print(collision.collider.tag);
+        
         foreach(string tagThatDestorysThis in destoryTags) {
             if(collision.collider.CompareTag(tagThatDestorysThis)) {
                 Destroy(this.gameObject);
@@ -35,11 +43,13 @@ public class Bullet : MonoBehaviour {
             Collider2D[] thisPlayersColliders = playerThatShotThis.GetComponentsInChildren<Collider2D>();
             foreach (Collider2D thisPlayersCollider in thisPlayersColliders) {
                 if(collision.collider == thisPlayersCollider) {
-                    playerThatShotThis.GetComponent<PlayerSizeChanger>().hitPlayerWithEnlargeWave(0.25f);
+                    playerThatShotThis.GetComponent<PlayerSizeChanger>().hitPlayerWithShrinkWave(0.25f);
+                    Destroy(this.gameObject);
                     return;
                 }
             }
-            collision.collider.GetComponent<PlayerSizeChanger>().hitPlayerWithShrinkWave(0.25f);
+            collision.collider.transform.parent.GetComponent<PlayerSizeChanger>().hitPlayerWithEnlargeWave(0.25f);
+            Destroy(this.gameObject);
         }
 
     }
