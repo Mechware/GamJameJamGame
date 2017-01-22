@@ -21,92 +21,95 @@ public class PlayerAssign : MonoBehaviour {
     private int p3 = 3;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
         
-            for(int i = 0 ; i < characters.Length ; i++) {
-            characters[i].SetActive(false);
-
-
-            // Camera has issues if characters are deleted from the scene...
-           /* if(PlayerSelect.shrod == false) {
-                Destroy(characters[0]);
+        if(!PlayerSelect.shrod && !PlayerSelect.plonck && !PlayerSelect.deBrock) {
+            DestroyImmediate(characters[1]);
+            DestroyImmediate(characters[2]);
+        } else {
+            if (PlayerSelect.shrod == false) {
+                DestroyImmediate(characters[0]);
             }
-            if(PlayerSelect.plonck == false) {
-                Destroy(characters[1]);
+            if (PlayerSelect.plonck == false) {
+                DestroyImmediate(characters[1]);
             }
-            if(PlayerSelect.deBrock == false) {
-                Destroy(characters[2]);
-            } */
+            if (PlayerSelect.deBrock == false) {
+                DestroyImmediate(characters[2]);
+            }
         }
-        
 	}
-	
-	// Update is called once per frame
-	void Update () {
 
-        //assign player1
-		if(PlayerSelect.player1 == "Shrodanger") {
+    void Start() {
+        bool player1Set = true, player2Set = true, player3Set = true;
+
+        if (PlayerSelect.player1 == "Shrodanger") {
             characters[0].SetActive(true);
             arms[0].setPlayerNumber(p1);
             bullets[0].setPlayerNumber(p1);
             moves[0].setPlayerNumber(p1);
-        }
-        if (PlayerSelect.player1 == "Plonck") {
+        } else if (PlayerSelect.player1 == "Plonck") {
             characters[1].SetActive(true);
             arms[1].setPlayerNumber(p1);
             bullets[1].setPlayerNumber(p1);
             moves[1].setPlayerNumber(p1);
-        }
-        if (PlayerSelect.player1 == "DeBroccoli") {
+        } else if (PlayerSelect.player1 == "DeBroccoli") {
             characters[2].SetActive(true);
             arms[2].setPlayerNumber(p1);
             bullets[2].setPlayerNumber(p1);
             moves[2].setPlayerNumber(p1);
-        }
+        } else
+            player1Set = false;
+
         //assign player2
         if (PlayerSelect.player2 == "Shrodanger") {
             characters[0].SetActive(true);
             arms[0].setPlayerNumber(p2);
             bullets[0].setPlayerNumber(p2);
             moves[0].setPlayerNumber(p2);
-        }
-        if (PlayerSelect.player2 == "Plonck") {
+        } else if (PlayerSelect.player2 == "Plonck") {
             characters[1].SetActive(true);
             arms[1].setPlayerNumber(p2);
             bullets[1].setPlayerNumber(p2);
             moves[1].setPlayerNumber(p2);
-        }
-        if (PlayerSelect.player2 == "DeBroccoli") {
+        } else if (PlayerSelect.player2 == "DeBroccoli") {
             characters[2].SetActive(true);
             arms[2].setPlayerNumber(p2);
             bullets[2].setPlayerNumber(p2);
             moves[2].setPlayerNumber(p2);
-        }
+        } else
+            player2Set = false;
+
         //assign player3
         if (PlayerSelect.player3 == "Shrodanger") {
             characters[0].SetActive(true);
             arms[0].setPlayerNumber(p3);
             bullets[0].setPlayerNumber(p3);
             moves[0].setPlayerNumber(p3);
-        }
-        if (PlayerSelect.player3 == "Plonck") {
+        } else if (PlayerSelect.player3 == "Plonck") {
             characters[1].SetActive(true);
             arms[1].setPlayerNumber(p3);
             bullets[1].setPlayerNumber(p3);
             moves[1].setPlayerNumber(p3);
-        }
-        if (PlayerSelect.player3 == "DeBroccoli") {
+        } else if (PlayerSelect.player3 == "DeBroccoli") {
             characters[2].SetActive(true);
             arms[2].setPlayerNumber(p3);
             bullets[2].setPlayerNumber(p3);
             moves[2].setPlayerNumber(p3);
-        }
+        } else
+            player3Set = false;
 
-        if(!characters[0].activeSelf && !characters[1].activeSelf && !characters[2].activeSelf) {
+        if (!player1Set && !player2Set && !player3Set) {
             characters[0].SetActive(true);
-            arms[0].setPlayerNumber(1);
-            bullets[0].setPlayerNumber(1);
-            moves[0].setPlayerNumber(1);
+            arms[0].setPlayerNumber(p1);
+            bullets[0].setPlayerNumber(p1);
+            moves[0].setPlayerNumber(p1);
         }
+    }
+	
+	// Update is called once per frame
+	void Update () {
+
+        //assign player1
+		
     }
 }

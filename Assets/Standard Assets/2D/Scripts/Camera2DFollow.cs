@@ -26,24 +26,33 @@ public class Camera2DFollow : MonoBehaviour
     private float startZ;
 
     // Use this for initialization
-    private void Start()
-    {
+    private void Start() {
         cam = GetComponent<Camera>();
         startZ = cam.transform.position.z;
+
+        _players = new List<GameObject>();
+        foreach (GameObject player in players) {
+            if(player != null) {
+                _players.Add(player);
+            }      
+        }
     }
 
 
     // Update is called once per frame
     private void Update()
     {
+        if(_players.Count == 0) {
+            return;
+        }
 
-        float playerAx = players[0].transform.position.x;
-        float playerBx = players[0].transform.position.y;
-        float playerCy = players[0].transform.position.x;
-        float playerDy = players[0].transform.position.y;
+        float playerAx = _players[0].transform.position.x;
+        float playerBx = _players[0].transform.position.x;
+        float playerCy = _players[0].transform.position.y;
+        float playerDy = _players[0].transform.position.y;
         Vector3 maxDistance = new Vector3(0, 0, 0);
-        foreach(GameObject player in players) {
-            foreach(GameObject player2 in players) {
+        foreach(GameObject player in _players) {
+            foreach(GameObject player2 in _players) {
                 Vector3 difference = (player2.transform.position - player.transform.position);
                 if (difference.x > maxDistance.x) {
                     playerAx = player.transform.position.x;
@@ -59,7 +68,7 @@ public class Camera2DFollow : MonoBehaviour
         }
 
         Vector3 inTheMiddle = new Vector3((playerAx + playerBx)/2, (playerCy + playerDy)/2);
-        inTheMiddle.z = -10;
+        inTheMiddle.z = startZ;
         transform.position = Vector3.Lerp(transform.position, inTheMiddle, Time.deltaTime);
 
         if(maxDistance.magnitude < minLength) {

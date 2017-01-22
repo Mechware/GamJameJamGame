@@ -338,6 +338,7 @@ MonoBehaviour:
   bullet: {fileID: 1282433310065944, guid: 81ef2420d21c9da41978f2a6ae6122c2, type: 2}
   startPosition: {fileID: 4473632928990114}
   playerNumber: 0
+  waitTime: 0.4
 --- !u!114 &114154041857548342
 MonoBehaviour:
   m_ObjectHideFlags: 1
